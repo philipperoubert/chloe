@@ -128,7 +128,7 @@ def main(transcription_mode="online"):
 
     recognizer = sr.Recognizer()
     porcupine = pvporcupine.create(
-        keyword_paths=["hey_chloe_hotword.ppn"],
+        keyword_paths=["resources/hey_chloe_hotword.ppn"],
         access_key=os.environ["PORCUPINE_ACCESS_KEY"],
     )
     openai.api_key = os.environ["OPENAI_API_KEY"]
