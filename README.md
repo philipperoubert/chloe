@@ -64,6 +64,9 @@ Both OpenAI and Google APIs are paid APIs. Please be mindful of it whe using thi
 
 Note that free API keys for OpenWeatherMap have limitations, such as a limited number of requests per minute. Check the OpenWeatherMap API documentation for more information.
 
+## Contribute
+
+Contributions are welcome! Plugin interactions can be expanded in many ways (e.g. calendars, current news, etc.).
 
 ## License
 This project is licensed under the MIT License.
