@@ -51,7 +51,7 @@ pip install -r requirements.txt
   - You have 2 options, either run the speech-to-text transcription using OpenAI's API with the flag `online` (default)
   - Either run the speech-to-text transcription using OpenAI's local model with the flag `offline`
 ```bash
-python chloe.py online
+python src/chloe.py online
 ```
 
 ## Usage
