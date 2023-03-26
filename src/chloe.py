@@ -178,9 +178,7 @@ def main(transcription_mode="online"):
                     # Transcribe the audio using OpenAI's Whisper model
                     print("Transcribing audio...")
                     if transcription_mode == "online":
-                        transcript = recognizer.recognize_whisper(
-                            audio, language="english", model="tiny.en"
-                        )
+                        transcript = recognizer.recognize_whisper_api(audio, api_key=os.environ["OPENAI_API_KEY"])
                         text = transcript
                     else:
                         audio_numpy = audio_data_to_numpy(audio)
