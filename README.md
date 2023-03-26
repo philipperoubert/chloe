@@ -22,6 +22,8 @@ Chlo-e is a voice-operated AI-powered chatbot that acts as a human friend. Built
 - soundfile
 - openai-whisper
 
+Tested on Ubuntu 22.04 and Python 3.10.6
+
 ## Installation
 
 1. Clone the repository
@@ -61,6 +63,7 @@ Remember that the conversation is designed to be spoken, not written. Chlo-e wil
 Both OpenAI and Google APIs are paid APIs. Please be mindful of it whe using this voice assistant. Minimal/Standard usage should come in at a couple cents.
 
 Note that free API keys for OpenWeatherMap have limitations, such as a limited number of requests per minute. Check the OpenWeatherMap API documentation for more information.
+
 
 ## License
 This project is licensed under the MIT License.
