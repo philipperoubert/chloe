@@ -1,0 +1,7 @@
+.vscode
+misc
+.ipynb_checkpoints
+__pycache__
+env_vars.sh
+venv
+resources/google_credentials.json
